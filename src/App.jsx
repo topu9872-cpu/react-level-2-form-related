@@ -1,33 +1,31 @@
-
-import './App.css'
-import ControlledField from './Components/ControlledField/ControlledField'
-import FormAction from './Components/FormAction/FormAction'
-import ProductManagment from './Components/ProducttManagment/ProductManagment'
-import SimpleForm from './Components/SimpleForm/SimpleForm'
-import UnControlledField from './Components/UnControlledField/UnControlledField'
-import HookForm from './Hooks/HookForm'
+import "./App.css";
+import ControlledField from "./Components/ControlledField/ControlledField";
+import FamilyTree from "./Components/FamilyTree/FamilyTree";
+import FormAction from "./Components/FormAction/FormAction";
+import ProductManagment from "./Components/ProducttManagment/ProductManagment";
+import SimpleForm from "./Components/SimpleForm/SimpleForm";
+import UnControlledField from "./Components/UnControlledField/UnControlledField";
+import HookForm from "./Hooks/HookForm";
 
 function App() {
- 
-
   return (
     <>
-<h1>Explore React Form</h1>
+      <h1>Explore React Form</h1>
 
-{/* <SimpleForm></SimpleForm> */}
+      {/* <SimpleForm></SimpleForm> */}
 
-{/* <FormAction></FormAction> */}
+      {/* <FormAction></FormAction> */}
 
-{/* <ControlledField></ControlledField> */}
+      {/* <ControlledField></ControlledField> */}
 
-{/* <UnControlledField></UnControlledField> */}
+      {/* <UnControlledField></UnControlledField> */}
 
-{/* <HookForm></HookForm> */}
+      {/* <HookForm></HookForm> */}
 
-<ProductManagment></ProductManagment>
-
+      {/* <ProductManagment></ProductManagment> */}
+      <FamilyTree></FamilyTree>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
